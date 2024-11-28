@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/system-config-generator/static/css/main.a51d3b2f.css",
+    "main.js": "/system-config-generator/static/js/main.a171820e.js",
+    "static/js/488.8ee92f8b.chunk.js": "/system-config-generator/static/js/488.8ee92f8b.chunk.js",
+    "index.html": "/system-config-generator/index.html",
+    "main.a51d3b2f.css.map": "/system-config-generator/static/css/main.a51d3b2f.css.map",
+    "main.a171820e.js.map": "/system-config-generator/static/js/main.a171820e.js.map",
+    "488.8ee92f8b.chunk.js.map": "/system-config-generator/static/js/488.8ee92f8b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a51d3b2f.css",
+    "static/js/main.a171820e.js"
+  ]
+}
