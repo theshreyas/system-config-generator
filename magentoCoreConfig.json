@@ -1,1241 +1,1226 @@
 {
-    "wyomind": {
-        "label": "Wyomind",
-        "core": {
-            "label": "NoLabel"
-        },
-        "wyomind_elasticsearchbrowser": {
-            "label": "Elasticsearch Browser",
-            "license": {
-                "label": "License"
-            },
-            "debug": {
-                "label": "Log / Debug"
-            }
-        }
+  "customer": {
+    "label": "Customers",
+    "login_as_customer": {
+      "label": "Login as Customer",
+      "general": {
+        "label": "Login as Customer Settings"
+      }
+    },
+    "newsletter": {
+      "label": "Newsletter",
+      "general": {
+        "label": "General Options"
+      },
+      "subscription": {
+        "label": "Subscription Options"
+      }
     },
     "customer": {
-        "label": "Customers",
-        "login_as_customer": {
-            "label": "Login as Customer",
-            "general": {
-                "label": "Login as Customer Settings"
-            }
-        },
-        "newsletter": {
-            "label": "Newsletter",
-            "general": {
-                "label": "General Options"
-            },
-            "subscription": {
-                "label": "Subscription Options"
-            }
-        },
-        "customer": {
-            "label": "Customer Configuration",
-            "account_share": {
-                "label": "Account Sharing Options"
-            },
-            "online_customers": {
-                "label": "Online Customers Options"
-            },
-            "create_account": {
-                "label": "Create New Account Options"
-            },
-            "password": {
-                "label": "Password Options"
-            },
-            "account_information": {
-                "label": "Account Information Options"
-            },
-            "address": {
-                "label": "Name and Address Options"
-            },
-            "startup": {
-                "label": "Login Options"
-            },
-            "address_templates": {
-                "label": "Address Templates"
-            },
-            "captcha": {
-                "label": "CAPTCHA"
-            }
-        },
-        "wishlist": {
-            "label": "Wish List",
-            "general": {
-                "label": "General Options"
-            },
-            "email": {
-                "label": "Share Options"
-            },
-            "wishlist_link": {
-                "label": "My Wish List Link"
-            }
-        },
-        "promo": {
-            "label": "Promotions",
-            "auto_generated_coupon_codes": {
-                "label": "Auto Generated Specific Coupon Codes"
-            }
-        },
-        "persistent": {
-            "label": "Persistent Shopping Cart",
-            "options": {
-                "label": "General Options"
-            }
-        }
+      "label": "Customer Configuration",
+      "account_share": {
+        "label": "Account Sharing Options"
+      },
+      "online_customers": {
+        "label": "Online Customers Options"
+      },
+      "create_account": {
+        "label": "Create New Account Options"
+      },
+      "password": {
+        "label": "Password Options"
+      },
+      "account_information": {
+        "label": "Account Information Options"
+      },
+      "address": {
+        "label": "Name and Address Options"
+      },
+      "startup": {
+        "label": "Login Options"
+      },
+      "address_templates": {
+        "label": "Address Templates"
+      },
+      "captcha": {
+        "label": "CAPTCHA"
+      }
     },
+    "wishlist": {
+      "label": "Wish List",
+      "general": {
+        "label": "General Options"
+      },
+      "email": {
+        "label": "Share Options"
+      },
+      "wishlist_link": {
+        "label": "My Wish List Link"
+      }
+    },
+    "promo": {
+      "label": "Promotions",
+      "auto_generated_coupon_codes": {
+        "label": "Auto Generated Specific Coupon Codes"
+      }
+    },
+    "persistent": {
+      "label": "Persistent Shopping Cart",
+      "options": {
+        "label": "General Options"
+      }
+    }
+  },
+  "general": {
+    "label": "General",
     "general": {
-        "label": "General",
-        "general": {
-            "label": "General",
-            "country": {
-                "label": "Country Options"
-            },
-            "region": {
-                "label": "State Options"
-            },
-            "locale": {
-                "label": "Locale Options"
-            },
-            "store_information": {
-                "label": "Store Information"
-            },
-            "single_store_mode": {
-                "label": "Single-Store Mode"
-            }
-        },
-        "web": {
-            "label": "Web",
-            "url": {
-                "label": "Url Options"
-            },
-            "seo": {
-                "label": "Search Engine Optimization"
-            },
-            "unsecure": {
-                "label": "Base URLs"
-            },
-            "secure": {
-                "label": "Base URLs (Secure)"
-            },
-            "default": {
-                "label": "Default Pages"
-            },
-            "default_layouts": {
-                "label": "Default Layouts"
-            },
-            "cookie": {
-                "label": "Default Cookie Settings"
-            },
-            "session": {
-                "label": "Session Validation Settings"
-            },
-            "browser_capabilities": {
-                "label": "Browser Capabilities Detection"
-            }
-        },
-        "design": {
-            "label": "Design"
-        },
-        "currency": {
-            "label": "Currency Setup",
-            "options": {
-                "label": "Currency Options"
-            },
-            "fixerio": {
-                "label": "Fixer.io (legacy)"
-            },
-            "fixerio_apilayer": {
-                "label": "Fixer Api (APILayer)"
-            },
-            "currencyconverterapi": {
-                "label": "Currency Converter API"
-            },
-            "import": {
-                "label": "Scheduled Import Settings"
-            }
-        },
-        "trans_email": {
-            "label": "Store Email Addresses",
-            "ident_general": {
-                "label": "General Contact"
-            },
-            "ident_sales": {
-                "label": "Sales Representative"
-            },
-            "ident_support": {
-                "label": "Customer Support"
-            },
-            "ident_custom1": {
-                "label": "Custom Email 1"
-            },
-            "ident_custom2": {
-                "label": "Custom Email 2"
-            }
-        },
-        "contact": {
-            "label": "Contacts",
-            "contact": {
-                "label": "Contact Us"
-            },
-            "email": {
-                "label": "Email Options"
-            }
-        },
-        "reports": {
-            "label": "Reports",
-            "dashboard": {
-                "label": "Dashboard"
-            },
-            "options": {
-                "label": "General Options"
-            }
-        },
-        "cms": {
-            "label": "Content Management",
-            "wysiwyg": {
-                "label": "WYSIWYG Options"
-            },
-            "pagebuilder": {
-                "label": "Advanced Content Tools"
-            }
-        },
-        "newrelicreporting": {
-            "label": "New Relic Reporting",
-            "general": {
-                "label": "General"
-            },
-            "cron": {
-                "label": "Cron"
-            }
-        },
-        "analytics": {
-            "label": "Advanced Reporting",
-            "general": {
-                "label": "Advanced Reporting"
-            }
-        }
+      "label": "General",
+      "country": {
+        "label": "Country Options"
+      },
+      "region": {
+        "label": "State Options"
+      },
+      "locale": {
+        "label": "Locale Options"
+      },
+      "store_information": {
+        "label": "Store Information"
+      },
+      "single_store_mode": {
+        "label": "Single-Store Mode"
+      }
+    },
+    "web": {
+      "label": "Web",
+      "url": {
+        "label": "Url Options"
+      },
+      "seo": {
+        "label": "Search Engine Optimization"
+      },
+      "unsecure": {
+        "label": "Base URLs"
+      },
+      "secure": {
+        "label": "Base URLs (Secure)"
+      },
+      "default": {
+        "label": "Default Pages"
+      },
+      "default_layouts": {
+        "label": "Default Layouts"
+      },
+      "cookie": {
+        "label": "Default Cookie Settings"
+      },
+      "session": {
+        "label": "Session Validation Settings"
+      },
+      "browser_capabilities": {
+        "label": "Browser Capabilities Detection"
+      }
+    },
+    "design": {
+      "label": "Design"
+    },
+    "currency": {
+      "label": "Currency Setup",
+      "options": {
+        "label": "Currency Options"
+      },
+      "fixerio": {
+        "label": "Fixer.io (legacy)"
+      },
+      "fixerio_apilayer": {
+        "label": "Fixer Api (APILayer)"
+      },
+      "currencyconverterapi": {
+        "label": "Currency Converter API"
+      },
+      "import": {
+        "label": "Scheduled Import Settings"
+      }
+    },
+    "trans_email": {
+      "label": "Store Email Addresses",
+      "ident_general": {
+        "label": "General Contact"
+      },
+      "ident_sales": {
+        "label": "Sales Representative"
+      },
+      "ident_support": {
+        "label": "Customer Support"
+      },
+      "ident_custom1": {
+        "label": "Custom Email 1"
+      },
+      "ident_custom2": {
+        "label": "Custom Email 2"
+      }
+    },
+    "contact": {
+      "label": "Contacts",
+      "contact": {
+        "label": "Contact Us"
+      },
+      "email": {
+        "label": "Email Options"
+      }
+    },
+    "reports": {
+      "label": "Reports",
+      "dashboard": {
+        "label": "Dashboard"
+      },
+      "options": {
+        "label": "General Options"
+      }
+    },
+    "cms": {
+      "label": "Content Management",
+      "wysiwyg": {
+        "label": "WYSIWYG Options"
+      },
+      "pagebuilder": {
+        "label": "Advanced Content Tools"
+      }
+    },
+    "newrelicreporting": {
+      "label": "New Relic Reporting",
+      "general": {
+        "label": "General"
+      },
+      "cron": {
+        "label": "Cron"
+      }
+    },
+    "analytics": {
+      "label": "Advanced Reporting",
+      "general": {
+        "label": "Advanced Reporting"
+      }
+    }
+  },
+  "advanced": {
+    "label": "Advanced",
+    "admin": {
+      "label": "Admin",
+      "emails": {
+        "label": "Admin User Emails"
+      },
+      "startup": {
+        "label": "Startup Page"
+      },
+      "url": {
+        "label": "Admin Base URL"
+      },
+      "security": {
+        "label": "Security"
+      },
+      "dashboard": {
+        "label": "Dashboard"
+      },
+      "grid": {
+        "label": "Admin Grids"
+      },
+      "captcha": {
+        "label": "CAPTCHA"
+      },
+      "usage": {
+        "label": "Admin Usage"
+      }
+    },
+    "system": {
+      "label": "System",
+      "cron": {
+        "label": "Cron (Scheduled Tasks)"
+      },
+      "mysqlmq": {
+        "label": "MySQL Message Queue Cleanup"
+      },
+      "smtp": {
+        "label": "Mail Sending Settings"
+      },
+      "currency": {
+        "label": "Currency"
+      },
+      "security": {
+        "label": "Security"
+      },
+      "adminnotification": {
+        "label": "Notifications"
+      },
+      "backup": {
+        "label": "Backup Settings"
+      },
+      "full_page_cache": {
+        "label": "Full Page Cache"
+      },
+      "bulk": {
+        "label": "Bulk Actions"
+      },
+      "media_storage_configuration": {
+        "label": "Storage Configuration for Media"
+      },
+      "upload_configuration": {
+        "label": "Images Upload Configuration"
+      },
+      "media_gallery": {
+        "label": "Media Gallery"
+      },
+      "media_gallery_renditions": {
+        "label": "Media Gallery Image Optimization"
+      },
+      "adobe_stock_integration": {
+        "label": "Adobe Stock Integration"
+      }
     },
     "advanced": {
-        "label": "Advanced",
-        "admin": {
-            "label": "Admin",
-            "emails": {
-                "label": "Admin User Emails"
-            },
-            "startup": {
-                "label": "Startup Page"
-            },
-            "url": {
-                "label": "Admin Base URL"
-            },
-            "security": {
-                "label": "Security"
-            },
-            "dashboard": {
-                "label": "Dashboard"
-            },
-            "grid": {
-                "label": "Admin Grids"
-            },
-            "captcha": {
-                "label": "CAPTCHA"
-            },
-            "usage": {
-                "label": "Admin Usage"
-            }
-        },
-        "system": {
-            "label": "System",
-            "cron": {
-                "label": "Cron (Scheduled Tasks)"
-            },
-            "mysqlmq": {
-                "label": "MySQL Message Queue Cleanup"
-            },
-            "smtp": {
-                "label": "Mail Sending Settings"
-            },
-            "currency": {
-                "label": "Currency"
-            },
-            "security": {
-                "label": "Security"
-            },
-            "adminnotification": {
-                "label": "Notifications"
-            },
-            "backup": {
-                "label": "Backup Settings"
-            },
-            "full_page_cache": {
-                "label": "Full Page Cache"
-            },
-            "bulk": {
-                "label": "Bulk Actions"
-            },
-            "media_storage_configuration": {
-                "label": "Storage Configuration for Media"
-            },
-            "upload_configuration": {
-                "label": "Images Upload Configuration"
-            },
-            "media_gallery": {
-                "label": "Media Gallery"
-            },
-            "media_gallery_renditions": {
-                "label": "Media Gallery Image Optimization"
-            },
-            "adobe_stock_integration": {
-                "label": "Adobe Stock Integration"
-            }
-        },
-        "advanced": {
-            "label": "Advanced",
-            "modules_disable_output": {
-                "label": "Disable Modules Output"
-            }
-        },
-        "dev": {
-            "label": "Developer",
-            "front_end_development_workflow": {
-                "label": "Frontend Development Workflow"
-            },
-            "restrict": {
-                "label": "Developer Client Restrictions"
-            },
-            "debug": {
-                "label": "Debug"
-            },
-            "template": {
-                "label": "Template Settings"
-            },
-            "translate_inline": {
-                "label": "Translate Inline"
-            },
-            "js": {
-                "label": "JavaScript Settings"
-            },
-            "css": {
-                "label": "CSS Settings"
-            },
-            "image": {
-                "label": "Image Processing Settings"
-            },
-            "caching": {
-                "label": "Caching Settings"
-            },
-            "static": {
-                "label": "Static Files Settings"
-            },
-            "grid": {
-                "label": "Grid Settings"
-            }
-        }
+      "label": "Advanced",
+      "modules_disable_output": {
+        "label": "Disable Modules Output"
+      }
     },
-    "catalog": {
-        "label": "Catalog",
-        "catalog": {
-            "label": "Catalog",
-            "fields_masks": {
-                "label": "Product Fields Auto-Generation"
-            },
-            "frontend": {
-                "label": "Storefront"
-            },
-            "review": {
-                "label": "Product Reviews"
-            },
-            "productalert": {
-                "label": "Product Alerts"
-            },
-            "productalert_cron": {
-                "label": "Product Alerts Run Settings"
-            },
-            "placeholder": {
-                "label": "Product Image Placeholders"
-            },
-            "recently_products": {
-                "label": "Recently Viewed/Compared Products"
-            },
-            "product_video": {
-                "label": "Product Video"
-            },
-            "price": {
-                "label": "Price"
-            },
-            "layered_navigation": {
-                "label": "Layered Navigation"
-            },
-            "seo": {
-                "label": "Search Engine Optimization"
-            },
-            "navigation": {
-                "label": "Category Top Navigation"
-            },
-            "search": {
-                "label": "Catalog Search"
-            },
-            "downloadable": {
-                "label": "Downloadable Product Options"
-            },
-            "custom_options": {
-                "label": "Date & Time Custom Options"
-            }
-        },
-        "cataloginventory": {
-            "label": "Inventory",
-            "options": {
-                "label": "Stock Options"
-            },
-            "item_options": {
-                "label": "Product Stock Options"
-            },
-            "bulk_operations": {
-                "label": "Admin bulk operations"
-            },
-            "indexer": {
-                "label": "Inventory Indexer Settings"
-            },
-            "source_selection_distance_based": {
-                "label": "Distance Provider for Distance Based SSA"
-            },
-            "source_selection_distance_based_google": {
-                "label": "Google Distance Provider"
-            }
-        },
-        "sitemap": {
-            "label": "XML Sitemap",
-            "category": {
-                "label": "Categories Options"
-            },
-            "product": {
-                "label": "Products Options"
-            },
-            "page": {
-                "label": "CMS Pages Options"
-            },
-            "store": {
-                "label": "Store Url Options"
-            },
-            "generate": {
-                "label": "Generation Settings"
-            },
-            "limit": {
-                "label": "Sitemap File Limits"
-            },
-            "search_engines": {
-                "label": "Search Engine Submission Settings"
-            }
-        },
-        "rss": {
-            "label": "RSS Feeds",
-            "config": {
-                "label": "Rss Config"
-            },
-            "wishlist": {
-                "label": "Wish List"
-            },
-            "catalog": {
-                "label": "Catalog"
-            },
-            "order": {
-                "label": "Order"
-            }
-        },
-        "sendfriend": {
-            "label": "Email to a Friend",
-            "email": {
-                "label": "Email Templates"
-            }
-        }
-    },
-    "service": {
-        "label": "Services",
-        "webapi": {
-            "label": "Magento Web API",
-            "soap": {
-                "label": "SOAP Settings"
-            },
-            "graphql_validation": {
-                "label": "GraphQl Input Limits"
-            },
-            "validation": {
-                "label": "Web Api Input Limits"
-            },
-            "graphql_session": {
-                "label": "GraphQl Session Management"
-            },
-            "webapisecurity": {
-                "label": "Web API Security"
-            },
-            "jwtauth": {
-                "label": "JWT Authentication"
-            }
-        },
-        "services_connector": {
-            "label": "Commerce Services Connector",
-            "services_connector_integration": {
-                "label": "API Keys"
-            },
-            "services_id_onboarding": {
-                "label": "Commerce Services Connector Setup"
-            }
-        },
-        "oauth": {
-            "label": "OAuth",
-            "access_token_lifetime": {
-                "label": "Access Token Expiration"
-            },
-            "cleanup": {
-                "label": "Cleanup Settings"
-            },
-            "consumer": {
-                "label": "Consumer Settings"
-            },
-            "authentication_lock": {
-                "label": "Authentication Locks"
-            }
-        }
-    },
-    "sales": {
-        "label": "Sales",
-        "sales": {
-            "label": "Sales",
-            "general": {
-                "label": "General"
-            },
-            "totals_sort": {
-                "label": "Checkout Totals Sort Order"
-            },
-            "cancellation": {
-                "label": "Order cancellation"
-            },
-            "reorder": {
-                "label": "Reorder"
-            },
-            "zerograndtotal_creditmemo": {
-                "label": "Allow Zero GrandTotal"
-            },
-            "identity": {
-                "label": "Invoice and Packing Slip Design"
-            },
-            "minimum_order": {
-                "label": "Minimum Order Amount"
-            },
-            "dashboard": {
-                "label": "Dashboard"
-            },
-            "orders": {
-                "label": "Orders Cron Settings"
-            },
-            "gift_options": {
-                "label": "Gift Options"
-            },
-            "msrp": {
-                "label": "Minimum Advertised Price"
-            },
-            "instant_purchase": {
-                "label": "Instant Purchase"
-            },
-            "backpressure": {
-                "label": "Rate limiting"
-            }
-        },
-        "sales_email": {
-            "label": "Sales Emails",
-            "general": {
-                "label": "General Settings"
-            },
-            "order": {
-                "label": "Order"
-            },
-            "order_comment": {
-                "label": "Order Comments"
-            },
-            "invoice": {
-                "label": "Invoice"
-            },
-            "invoice_comment": {
-                "label": "Invoice Comments"
-            },
-            "shipment": {
-                "label": "Shipment"
-            },
-            "shipment_comment": {
-                "label": "Shipment Comments"
-            },
-            "creditmemo": {
-                "label": "Credit Memo"
-            },
-            "creditmemo_comment": {
-                "label": "Credit Memo Comments"
-            },
-            "order_ready_for_pickup": {
-                "label": "Order Ready For Pickup in Store"
-            }
-        },
-        "sales_pdf": {
-            "label": "PDF Print-outs",
-            "invoice": {
-                "label": "Invoice"
-            },
-            "shipment": {
-                "label": "Shipment"
-            },
-            "creditmemo": {
-                "label": "Credit Memo"
-            }
-        },
-        "tax": {
-            "label": "Tax",
-            "classes": {
-                "label": "Tax Classes"
-            },
-            "calculation": {
-                "label": "Calculation Settings"
-            },
-            "defaults": {
-                "label": "Default Tax Destination Calculation"
-            },
-            "display": {
-                "label": "Price Display Settings"
-            },
-            "cart_display": {
-                "label": "Shopping Cart Display Settings"
-            },
-            "sales_display": {
-                "label": "Orders, Invoices, Credit Memos Display Settings"
-            },
-            "weee": {
-                "label": "Fixed Product Taxes"
-            }
-        },
-        "checkout": {
-            "label": "Checkout",
-            "options": {
-                "label": "Checkout Options"
-            },
-            "cart": {
-                "label": "Shopping Cart"
-            },
-            "cart_link": {
-                "label": "My Cart Link"
-            },
-            "sidebar": {
-                "label": "Mini Cart"
-            },
-            "payment_failed": {
-                "label": "Payment Failed Emails"
-            }
-        },
-        "shipping": {
-            "label": "Shipping Settings",
-            "origin": {
-                "label": "Origin"
-            },
-            "shipping_policy": {
-                "label": "Shipping Policy Parameters"
-            }
-        },
-        "multishipping": {
-            "label": "Multishipping Settings",
-            "options": {
-                "label": "Options"
-            }
-        },
-        "carriers": {
-            "label": "Delivery Methods",
-            "flatrate": {
-                "label": "Flat Rate"
-            },
-            "freeshipping": {
-                "label": "Free Shipping"
-            },
-            "tablerate": {
-                "label": "Table Rates"
-            },
-            "instore": {
-                "label": "In-Store Delivery"
-            },
-            "ups": {
-                "label": "UPS"
-            },
-            "usps": {
-                "label": "USPS"
-            },
-            "fedex": {
-                "label": "FedEx"
-            },
-            "dhl": {
-                "label": "DHL"
-            }
-        },
-        "google": {
-            "label": "Google API",
-            "analytics": {
-                "label": "Google Analytics"
-            },
-            "adwords": {
-                "label": "Google AdWords"
-            },
-            "gtag": {
-                "label": "Google GTag"
-            }
-        },
-        "payment": {
-            "label": "Payment Methods",
-            "account": {
-                "label": "Merchant Location"
-            },
-            "recommended_solutions": {
-                "label": "Featured Adobe Payment solution:"
-            },
-            "other_paypal_payment_solutions": {
-                "label": "Additional payment solutions:"
-            },
-            "other_payment_methods": {
-                "label": "Other Payment Methods:"
-            },
-            "free": {
-                "label": "Zero Subtotal Checkout"
-            },
-            "checkmo": {
-                "label": "Check / Money Order"
-            },
-            "banktransfer": {
-                "label": "Bank Transfer Payment"
-            },
-            "cashondelivery": {
-                "label": "Cash On Delivery Payment"
-            },
-            "purchaseorder": {
-                "label": "Purchase Order"
-            }
-        },
-        "payment_us": {
-            "label": "Payment Methods",
-            "account": {
-                "label": "Merchant Location"
-            },
-            "recommended_solutions": {
-                "label": "Featured Adobe Payment solution:"
-            },
-            "other_paypal_payment_solutions": {
-                "label": "Additional payment solutions:"
-            },
-            "other_payment_methods": {
-                "label": "Other Payment Methods:"
-            },
-            "paypal_alternative_payment_methods": {
-                "label": "NoLabel"
-            },
-            "paypal_group_all_in_one": {
-                "label": "PayPal All-in-One Payment Solutions&nbsp;<i>Accept and process credit cards and PayPal payments.</i>"
-            },
-            "paypal_payment_gateways": {
-                "label": "PayPal Payment Gateways&nbsp;<i>Process payments using your own internet merchant account.</i>"
-            },
-            "free": {
-                "label": "Zero Subtotal Checkout"
-            },
-            "checkmo": {
-                "label": "Check / Money Order"
-            },
-            "banktransfer": {
-                "label": "Bank Transfer Payment"
-            },
-            "cashondelivery": {
-                "label": "Cash On Delivery Payment"
-            },
-            "purchaseorder": {
-                "label": "Purchase Order"
-            }
-        },
-        "payment_gb": {
-            "label": "Payment Methods",
-            "account": {
-                "label": "Merchant Location"
-            },
-            "recommended_solutions": {
-                "label": "Featured Adobe Payment solution:"
-            },
-            "other_paypal_payment_solutions": {
-                "label": "Additional payment solutions:"
-            },
-            "other_payment_methods": {
-                "label": "Other Payment Methods:"
-            },
-            "paypal_alternative_payment_methods": {
-                "label": "NoLabel"
-            },
-            "paypal_group_all_in_one": {
-                "label": "PayPal All-in-One Payment Solutions&nbsp;&nbsp;<i>Accept and process credit cards and PayPal payments.</i>"
-            },
-            "free": {
-                "label": "Zero Subtotal Checkout"
-            },
-            "checkmo": {
-                "label": "Check / Money Order"
-            },
-            "banktransfer": {
-                "label": "Bank Transfer Payment"
-            },
-            "cashondelivery": {
-                "label": "Cash On Delivery Payment"
-            },
-            "purchaseorder": {
-                "label": "Purchase Order"
-            }
-        },
-        "payment_de": {
-            "label": "Payment Methods",
-            "account": {
-                "label": "Merchant Location"
-            },
-            "recommended_solutions": {
-                "label": "Featured Adobe Payment solution:"
-            },
-            "other_paypal_payment_solutions": {
-                "label": "Additional payment solutions:"
-            },
-            "other_payment_methods": {
-                "label": "Other Payment Methods:"
-            },
-            "paypal_payment_solutions": {
-                "label": "NoLabel"
-            },
-            "free": {
-                "label": "Zero Subtotal Checkout"
-            },
-            "checkmo": {
-                "label": "Check / Money Order"
-            },
-            "banktransfer": {
-                "label": "Bank Transfer Payment"
-            },
-            "cashondelivery": {
-                "label": "Cash On Delivery Payment"
-            },
-            "purchaseorder": {
-                "label": "Purchase Order"
-            }
-        },
-        "payment_other": {
-            "label": "Payment Methods",
-            "account": {
-                "label": "Merchant Location"
-            },
-            "recommended_solutions": {
-                "label": "Featured Adobe Payment solution:"
-            },
-            "other_paypal_payment_solutions": {
-                "label": "Additional payment solutions:"
-            },
-            "other_payment_methods": {
-                "label": "Other Payment Methods:"
-            },
-            "express_checkout_other": {
-                "label": "PayPal Express Checkout"
-            },
-            "paypal_group_all_in_one": {
-                "label": "PayPal All-in-One Payment Solutions&nbsp;&nbsp;<i>Accept and process credit cards and PayPal payments.</i>"
-            },
-            "paypal_payment_gateways": {
-                "label": "PayPal Payment Gateways&nbsp;<i>Process payments using your own internet merchant account.</i>"
-            },
-            "free": {
-                "label": "Zero Subtotal Checkout"
-            },
-            "checkmo": {
-                "label": "Check / Money Order"
-            },
-            "banktransfer": {
-                "label": "Bank Transfer Payment"
-            },
-            "cashondelivery": {
-                "label": "Cash On Delivery Payment"
-            },
-            "purchaseorder": {
-                "label": "Purchase Order"
-            }
-        },
-        "payment_ca": {
-            "label": "Payment Methods",
-            "account": {
-                "label": "Merchant Location"
-            },
-            "recommended_solutions": {
-                "label": "Featured Adobe Payment solution:"
-            },
-            "other_paypal_payment_solutions": {
-                "label": "Additional payment solutions:"
-            },
-            "other_payment_methods": {
-                "label": "Other Payment Methods:"
-            },
-            "express_checkout_other": {
-                "label": "PayPal Express Checkout"
-            },
-            "paypal_group_all_in_one": {
-                "label": "PayPal All-in-One Payment Solutions&nbsp;&nbsp;<i>Accept and process credit cards and PayPal payments.</i>"
-            },
-            "paypal_payment_gateways": {
-                "label": "PayPal Payment Gateways&nbsp;<i>Process payments using your own internet merchant account.</i>"
-            },
-            "free": {
-                "label": "Zero Subtotal Checkout"
-            },
-            "checkmo": {
-                "label": "Check / Money Order"
-            },
-            "banktransfer": {
-                "label": "Bank Transfer Payment"
-            },
-            "cashondelivery": {
-                "label": "Cash On Delivery Payment"
-            },
-            "purchaseorder": {
-                "label": "Purchase Order"
-            }
-        },
-        "payment_au": {
-            "label": "Payment Methods",
-            "account": {
-                "label": "Merchant Location"
-            },
-            "recommended_solutions": {
-                "label": "Featured Adobe Payment solution:"
-            },
-            "other_paypal_payment_solutions": {
-                "label": "Additional payment solutions:"
-            },
-            "other_payment_methods": {
-                "label": "Other Payment Methods:"
-            },
-            "express_checkout_other": {
-                "label": "PayPal Express Checkout"
-            },
-            "paypal_group_all_in_one": {
-                "label": "PayPal All-in-One Payment Solutions&nbsp;&nbsp;<i>Accept and process credit cards and PayPal payments.</i>"
-            },
-            "paypal_payment_gateways": {
-                "label": "PayPal Payment Gateways&nbsp;<i>Process payments using your own internet merchant account.</i>"
-            },
-            "free": {
-                "label": "Zero Subtotal Checkout"
-            },
-            "checkmo": {
-                "label": "Check / Money Order"
-            },
-            "banktransfer": {
-                "label": "Bank Transfer Payment"
-            },
-            "cashondelivery": {
-                "label": "Cash On Delivery Payment"
-            },
-            "purchaseorder": {
-                "label": "Purchase Order"
-            }
-        },
-        "payment_jp": {
-            "label": "Payment Methods",
-            "account": {
-                "label": "Merchant Location"
-            },
-            "recommended_solutions": {
-                "label": "Featured Adobe Payment solution:"
-            },
-            "other_paypal_payment_solutions": {
-                "label": "Additional payment solutions:"
-            },
-            "other_payment_methods": {
-                "label": "Other Payment Methods:"
-            },
-            "express_checkout_other": {
-                "label": "PayPal Express Checkout"
-            },
-            "paypal_group_all_in_one": {
-                "label": "PayPal All-in-One Payment Solutions&nbsp;&nbsp;<i>Accept and process credit cards and PayPal payments.</i>"
-            },
-            "paypal_payment_gateways": {
-                "label": "PayPal Payment Gateways&nbsp;<i>Process payments using your own internet merchant account.</i>"
-            },
-            "free": {
-                "label": "Zero Subtotal Checkout"
-            },
-            "checkmo": {
-                "label": "Check / Money Order"
-            },
-            "banktransfer": {
-                "label": "Bank Transfer Payment"
-            },
-            "cashondelivery": {
-                "label": "Cash On Delivery Payment"
-            },
-            "purchaseorder": {
-                "label": "Purchase Order"
-            }
-        },
-        "payment_fr": {
-            "label": "Payment Methods",
-            "account": {
-                "label": "Merchant Location"
-            },
-            "recommended_solutions": {
-                "label": "Featured Adobe Payment solution:"
-            },
-            "other_paypal_payment_solutions": {
-                "label": "Additional payment solutions:"
-            },
-            "other_payment_methods": {
-                "label": "Other Payment Methods:"
-            },
-            "express_checkout_other": {
-                "label": "PayPal Express Checkout"
-            },
-            "paypal_group_all_in_one": {
-                "label": "PayPal All-in-One Payment Solutions&nbsp;&nbsp;<i>Accept and process credit cards and PayPal payments.</i>"
-            },
-            "paypal_payment_gateways": {
-                "label": "PayPal Payment Gateways&nbsp;<i>Process payments using your own internet merchant account.</i>"
-            },
-            "free": {
-                "label": "Zero Subtotal Checkout"
-            },
-            "checkmo": {
-                "label": "Check / Money Order"
-            },
-            "banktransfer": {
-                "label": "Bank Transfer Payment"
-            },
-            "cashondelivery": {
-                "label": "Cash On Delivery Payment"
-            },
-            "purchaseorder": {
-                "label": "Purchase Order"
-            }
-        },
-        "payment_it": {
-            "label": "Payment Methods",
-            "account": {
-                "label": "Merchant Location"
-            },
-            "recommended_solutions": {
-                "label": "Featured Adobe Payment solution:"
-            },
-            "other_paypal_payment_solutions": {
-                "label": "Additional payment solutions:"
-            },
-            "other_payment_methods": {
-                "label": "Other Payment Methods:"
-            },
-            "express_checkout_other": {
-                "label": "PayPal Express Checkout"
-            },
-            "paypal_group_all_in_one": {
-                "label": "PayPal All-in-One Payment Solutions&nbsp;&nbsp;<i>Accept and process credit cards and PayPal payments.</i>"
-            },
-            "paypal_payment_gateways": {
-                "label": "PayPal Payment Gateways&nbsp;<i>Process payments using your own internet merchant account.</i>"
-            },
-            "free": {
-                "label": "Zero Subtotal Checkout"
-            },
-            "checkmo": {
-                "label": "Check / Money Order"
-            },
-            "banktransfer": {
-                "label": "Bank Transfer Payment"
-            },
-            "cashondelivery": {
-                "label": "Cash On Delivery Payment"
-            },
-            "purchaseorder": {
-                "label": "Purchase Order"
-            }
-        },
-        "payment_es": {
-            "label": "Payment Methods",
-            "account": {
-                "label": "Merchant Location"
-            },
-            "recommended_solutions": {
-                "label": "Featured Adobe Payment solution:"
-            },
-            "other_paypal_payment_solutions": {
-                "label": "Additional payment solutions:"
-            },
-            "other_payment_methods": {
-                "label": "Other Payment Methods:"
-            },
-            "express_checkout_other": {
-                "label": "PayPal Express Checkout"
-            },
-            "paypal_group_all_in_one": {
-                "label": "PayPal All-in-One Payment Solutions&nbsp;&nbsp;<i>Accept and process credit cards and PayPal payments.</i>"
-            },
-            "paypal_payment_gateways": {
-                "label": "PayPal Payment Gateways&nbsp;<i>Process payments using your own internet merchant account.</i>"
-            },
-            "free": {
-                "label": "Zero Subtotal Checkout"
-            },
-            "checkmo": {
-                "label": "Check / Money Order"
-            },
-            "banktransfer": {
-                "label": "Bank Transfer Payment"
-            },
-            "cashondelivery": {
-                "label": "Cash On Delivery Payment"
-            },
-            "purchaseorder": {
-                "label": "Purchase Order"
-            }
-        },
-        "payment_hk": {
-            "label": "Payment Methods",
-            "account": {
-                "label": "Merchant Location"
-            },
-            "recommended_solutions": {
-                "label": "Featured Adobe Payment solution:"
-            },
-            "other_paypal_payment_solutions": {
-                "label": "Additional payment solutions:"
-            },
-            "other_payment_methods": {
-                "label": "Other Payment Methods:"
-            },
-            "express_checkout_other": {
-                "label": "PayPal Express Checkout"
-            },
-            "paypal_group_all_in_one": {
-                "label": "PayPal All-in-One Payment Solutions&nbsp;&nbsp;<i>Accept and process credit cards and PayPal payments.</i>"
-            },
-            "paypal_payment_gateways": {
-                "label": "PayPal Payment Gateways&nbsp;<i>Process payments using your own internet merchant account.</i>"
-            },
-            "free": {
-                "label": "Zero Subtotal Checkout"
-            },
-            "checkmo": {
-                "label": "Check / Money Order"
-            },
-            "banktransfer": {
-                "label": "Bank Transfer Payment"
-            },
-            "cashondelivery": {
-                "label": "Cash On Delivery Payment"
-            },
-            "purchaseorder": {
-                "label": "Purchase Order"
-            }
-        },
-        "payment_nz": {
-            "label": "Payment Methods",
-            "account": {
-                "label": "Merchant Location"
-            },
-            "recommended_solutions": {
-                "label": "Featured Adobe Payment solution:"
-            },
-            "other_paypal_payment_solutions": {
-                "label": "Additional payment solutions:"
-            },
-            "other_payment_methods": {
-                "label": "Other Payment Methods:"
-            },
-            "express_checkout_other": {
-                "label": "PayPal Express Checkout"
-            },
-            "paypal_group_all_in_one": {
-                "label": "PayPal All-in-One Payment Solutions&nbsp;&nbsp;<i>Accept and process credit cards and PayPal payments.</i>"
-            },
-            "paypal_payment_gateways": {
-                "label": "PayPal Payment Gateways&nbsp;<i>Process payments using your own internet merchant account.</i>"
-            },
-            "free": {
-                "label": "Zero Subtotal Checkout"
-            },
-            "checkmo": {
-                "label": "Check / Money Order"
-            },
-            "banktransfer": {
-                "label": "Bank Transfer Payment"
-            },
-            "cashondelivery": {
-                "label": "Cash On Delivery Payment"
-            },
-            "purchaseorder": {
-                "label": "Purchase Order"
-            }
-        },
-        "three_d_secure": {
-            "label": "3D Secure",
-            "cardinal": {
-                "label": "NoLabel"
-            }
-        }
-    },
-    "security": {
-        "label": "Security",
-        "csp": {
-            "label": "Content Security Policy (CSP)",
-            "mode": {
-                "label": "Mode"
-            }
-        },
-        "magento_securitytxt_securitytxt": {
-            "label": "Security.txt",
-            "general": {
-                "label": "General"
-            },
-            "contact_information": {
-                "label": "Contact Information"
-            },
-            "other_information": {
-                "label": "Other Information"
-            }
-        },
-        "recaptcha_backend": {
-            "label": "Google reCAPTCHA Admin Panel",
-            "type_recaptcha": {
-                "label": "reCAPTCHA v2 (\"I am not a robot\")"
-            },
-            "type_invisible": {
-                "label": "reCAPTCHA v2 Invisible"
-            },
-            "type_recaptcha_v3": {
-                "label": "reCAPTCHA v3 Invisible"
-            },
-            "failure_messages": {
-                "label": "reCAPTCHA Failure Messages"
-            },
-            "type_for": {
-                "label": "Admin Panel"
-            }
-        },
-        "recaptcha_frontend": {
-            "label": "Google reCAPTCHA Storefront",
-            "type_recaptcha": {
-                "label": "reCAPTCHA v2 (\"I am not a robot\")"
-            },
-            "type_invisible": {
-                "label": "reCAPTCHA v2 Invisible"
-            },
-            "type_recaptcha_v3": {
-                "label": "reCAPTCHA v3 Invisible"
-            },
-            "failure_messages": {
-                "label": "reCAPTCHA Failure Messages"
-            },
-            "type_for": {
-                "label": "Storefront"
-            }
-        }
+    "dev": {
+      "label": "Developer",
+      "front_end_development_workflow": {
+        "label": "Frontend Development Workflow"
+      },
+      "restrict": {
+        "label": "Developer Client Restrictions"
+      },
+      "debug": {
+        "label": "Debug"
+      },
+      "template": {
+        "label": "Template Settings"
+      },
+      "translate_inline": {
+        "label": "Translate Inline"
+      },
+      "js": {
+        "label": "JavaScript Settings"
+      },
+      "css": {
+        "label": "CSS Settings"
+      },
+      "image": {
+        "label": "Image Processing Settings"
+      },
+      "caching": {
+        "label": "Caching Settings"
+      },
+      "static": {
+        "label": "Static Files Settings"
+      },
+      "grid": {
+        "label": "Grid Settings"
+      }
     }
+  },
+  "catalog": {
+    "label": "Catalog",
+    "catalog": {
+      "label": "Catalog",
+      "fields_masks": {
+        "label": "Product Fields Auto-Generation"
+      },
+      "frontend": {
+        "label": "Storefront"
+      },
+      "review": {
+        "label": "Product Reviews"
+      },
+      "productalert": {
+        "label": "Product Alerts"
+      },
+      "productalert_cron": {
+        "label": "Product Alerts Run Settings"
+      },
+      "placeholder": {
+        "label": "Product Image Placeholders"
+      },
+      "recently_products": {
+        "label": "Recently Viewed/Compared Products"
+      },
+      "product_video": {
+        "label": "Product Video"
+      },
+      "price": {
+        "label": "Price"
+      },
+      "layered_navigation": {
+        "label": "Layered Navigation"
+      },
+      "seo": {
+        "label": "Search Engine Optimization"
+      },
+      "navigation": {
+        "label": "Category Top Navigation"
+      },
+      "search": {
+        "label": "Catalog Search"
+      },
+      "downloadable": {
+        "label": "Downloadable Product Options"
+      },
+      "custom_options": {
+        "label": "Date & Time Custom Options"
+      }
+    },
+    "cataloginventory": {
+      "label": "Inventory",
+      "options": {
+        "label": "Stock Options"
+      },
+      "item_options": {
+        "label": "Product Stock Options"
+      },
+      "bulk_operations": {
+        "label": "Admin bulk operations"
+      },
+      "indexer": {
+        "label": "Inventory Indexer Settings"
+      },
+      "source_selection_distance_based": {
+        "label": "Distance Provider for Distance Based SSA"
+      },
+      "source_selection_distance_based_google": {
+        "label": "Google Distance Provider"
+      }
+    },
+    "sitemap": {
+      "label": "XML Sitemap",
+      "category": {
+        "label": "Categories Options"
+      },
+      "product": {
+        "label": "Products Options"
+      },
+      "page": {
+        "label": "CMS Pages Options"
+      },
+      "store": {
+        "label": "Store Url Options"
+      },
+      "generate": {
+        "label": "Generation Settings"
+      },
+      "limit": {
+        "label": "Sitemap File Limits"
+      },
+      "search_engines": {
+        "label": "Search Engine Submission Settings"
+      }
+    },
+    "rss": {
+      "label": "RSS Feeds",
+      "config": {
+        "label": "Rss Config"
+      },
+      "wishlist": {
+        "label": "Wish List"
+      },
+      "catalog": {
+        "label": "Catalog"
+      },
+      "order": {
+        "label": "Order"
+      }
+    },
+    "sendfriend": {
+      "label": "Email to a Friend",
+      "email": {
+        "label": "Email Templates"
+      }
+    }
+  },
+  "service": {
+    "label": "Services",
+    "webapi": {
+      "label": "Magento Web API",
+      "soap": {
+        "label": "SOAP Settings"
+      },
+      "graphql_validation": {
+        "label": "GraphQl Input Limits"
+      },
+      "validation": {
+        "label": "Web Api Input Limits"
+      },
+      "graphql_session": {
+        "label": "GraphQl Session Management"
+      },
+      "webapisecurity": {
+        "label": "Web API Security"
+      },
+      "jwtauth": {
+        "label": "JWT Authentication"
+      }
+    },
+    "services_connector": {
+      "label": "Commerce Services Connector",
+      "services_connector_integration": {
+        "label": "API Keys"
+      },
+      "services_id_onboarding": {
+        "label": "Commerce Services Connector Setup"
+      }
+    },
+    "oauth": {
+      "label": "OAuth",
+      "access_token_lifetime": {
+        "label": "Access Token Expiration"
+      },
+      "cleanup": {
+        "label": "Cleanup Settings"
+      },
+      "consumer": {
+        "label": "Consumer Settings"
+      },
+      "authentication_lock": {
+        "label": "Authentication Locks"
+      }
+    }
+  },
+  "sales": {
+    "label": "Sales",
+    "sales": {
+      "label": "Sales",
+      "general": {
+        "label": "General"
+      },
+      "totals_sort": {
+        "label": "Checkout Totals Sort Order"
+      },
+      "cancellation": {
+        "label": "Order cancellation"
+      },
+      "reorder": {
+        "label": "Reorder"
+      },
+      "zerograndtotal_creditmemo": {
+        "label": "Allow Zero GrandTotal"
+      },
+      "identity": {
+        "label": "Invoice and Packing Slip Design"
+      },
+      "minimum_order": {
+        "label": "Minimum Order Amount"
+      },
+      "dashboard": {
+        "label": "Dashboard"
+      },
+      "orders": {
+        "label": "Orders Cron Settings"
+      },
+      "gift_options": {
+        "label": "Gift Options"
+      },
+      "msrp": {
+        "label": "Minimum Advertised Price"
+      },
+      "instant_purchase": {
+        "label": "Instant Purchase"
+      },
+      "backpressure": {
+        "label": "Rate limiting"
+      }
+    },
+    "sales_email": {
+      "label": "Sales Emails",
+      "general": {
+        "label": "General Settings"
+      },
+      "order": {
+        "label": "Order"
+      },
+      "order_comment": {
+        "label": "Order Comments"
+      },
+      "invoice": {
+        "label": "Invoice"
+      },
+      "invoice_comment": {
+        "label": "Invoice Comments"
+      },
+      "shipment": {
+        "label": "Shipment"
+      },
+      "shipment_comment": {
+        "label": "Shipment Comments"
+      },
+      "creditmemo": {
+        "label": "Credit Memo"
+      },
+      "creditmemo_comment": {
+        "label": "Credit Memo Comments"
+      },
+      "order_ready_for_pickup": {
+        "label": "Order Ready For Pickup in Store"
+      }
+    },
+    "sales_pdf": {
+      "label": "PDF Print-outs",
+      "invoice": {
+        "label": "Invoice"
+      },
+      "shipment": {
+        "label": "Shipment"
+      },
+      "creditmemo": {
+        "label": "Credit Memo"
+      }
+    },
+    "tax": {
+      "label": "Tax",
+      "classes": {
+        "label": "Tax Classes"
+      },
+      "calculation": {
+        "label": "Calculation Settings"
+      },
+      "defaults": {
+        "label": "Default Tax Destination Calculation"
+      },
+      "display": {
+        "label": "Price Display Settings"
+      },
+      "cart_display": {
+        "label": "Shopping Cart Display Settings"
+      },
+      "sales_display": {
+        "label": "Orders, Invoices, Credit Memos Display Settings"
+      },
+      "weee": {
+        "label": "Fixed Product Taxes"
+      }
+    },
+    "checkout": {
+      "label": "Checkout",
+      "options": {
+        "label": "Checkout Options"
+      },
+      "cart": {
+        "label": "Shopping Cart"
+      },
+      "cart_link": {
+        "label": "My Cart Link"
+      },
+      "sidebar": {
+        "label": "Mini Cart"
+      },
+      "payment_failed": {
+        "label": "Payment Failed Emails"
+      }
+    },
+    "shipping": {
+      "label": "Shipping Settings",
+      "origin": {
+        "label": "Origin"
+      },
+      "shipping_policy": {
+        "label": "Shipping Policy Parameters"
+      }
+    },
+    "multishipping": {
+      "label": "Multishipping Settings",
+      "options": {
+        "label": "Options"
+      }
+    },
+    "carriers": {
+      "label": "Delivery Methods",
+      "flatrate": {
+        "label": "Flat Rate"
+      },
+      "freeshipping": {
+        "label": "Free Shipping"
+      },
+      "tablerate": {
+        "label": "Table Rates"
+      },
+      "instore": {
+        "label": "In-Store Delivery"
+      },
+      "ups": {
+        "label": "UPS"
+      },
+      "usps": {
+        "label": "USPS"
+      },
+      "fedex": {
+        "label": "FedEx"
+      },
+      "dhl": {
+        "label": "DHL"
+      }
+    },
+    "google": {
+      "label": "Google API",
+      "analytics": {
+        "label": "Google Analytics"
+      },
+      "adwords": {
+        "label": "Google AdWords"
+      },
+      "gtag": {
+        "label": "Google GTag"
+      }
+    },
+    "payment": {
+      "label": "Payment Methods",
+      "account": {
+        "label": "Merchant Location"
+      },
+      "recommended_solutions": {
+        "label": "Featured Adobe Payment solution:"
+      },
+      "other_paypal_payment_solutions": {
+        "label": "Additional payment solutions:"
+      },
+      "other_payment_methods": {
+        "label": "Other Payment Methods:"
+      },
+      "free": {
+        "label": "Zero Subtotal Checkout"
+      },
+      "checkmo": {
+        "label": "Check / Money Order"
+      },
+      "banktransfer": {
+        "label": "Bank Transfer Payment"
+      },
+      "cashondelivery": {
+        "label": "Cash On Delivery Payment"
+      },
+      "purchaseorder": {
+        "label": "Purchase Order"
+      }
+    },
+    "payment_us": {
+      "label": "Payment Methods",
+      "account": {
+        "label": "Merchant Location"
+      },
+      "recommended_solutions": {
+        "label": "Featured Adobe Payment solution:"
+      },
+      "other_paypal_payment_solutions": {
+        "label": "Additional payment solutions:"
+      },
+      "other_payment_methods": {
+        "label": "Other Payment Methods:"
+      },
+      "paypal_alternative_payment_methods": {
+        "label": "NoLabel"
+      },
+      "paypal_group_all_in_one": {
+        "label": "PayPal All-in-One Payment Solutions&nbsp;<i>Accept and process credit cards and PayPal payments.</i>"
+      },
+      "paypal_payment_gateways": {
+        "label": "PayPal Payment Gateways&nbsp;<i>Process payments using your own internet merchant account.</i>"
+      },
+      "free": {
+        "label": "Zero Subtotal Checkout"
+      },
+      "checkmo": {
+        "label": "Check / Money Order"
+      },
+      "banktransfer": {
+        "label": "Bank Transfer Payment"
+      },
+      "cashondelivery": {
+        "label": "Cash On Delivery Payment"
+      },
+      "purchaseorder": {
+        "label": "Purchase Order"
+      }
+    },
+    "payment_gb": {
+      "label": "Payment Methods",
+      "account": {
+        "label": "Merchant Location"
+      },
+      "recommended_solutions": {
+        "label": "Featured Adobe Payment solution:"
+      },
+      "other_paypal_payment_solutions": {
+        "label": "Additional payment solutions:"
+      },
+      "other_payment_methods": {
+        "label": "Other Payment Methods:"
+      },
+      "paypal_alternative_payment_methods": {
+        "label": "NoLabel"
+      },
+      "paypal_group_all_in_one": {
+        "label": "PayPal All-in-One Payment Solutions&nbsp;&nbsp;<i>Accept and process credit cards and PayPal payments.</i>"
+      },
+      "free": {
+        "label": "Zero Subtotal Checkout"
+      },
+      "checkmo": {
+        "label": "Check / Money Order"
+      },
+      "banktransfer": {
+        "label": "Bank Transfer Payment"
+      },
+      "cashondelivery": {
+        "label": "Cash On Delivery Payment"
+      },
+      "purchaseorder": {
+        "label": "Purchase Order"
+      }
+    },
+    "payment_de": {
+      "label": "Payment Methods",
+      "account": {
+        "label": "Merchant Location"
+      },
+      "recommended_solutions": {
+        "label": "Featured Adobe Payment solution:"
+      },
+      "other_paypal_payment_solutions": {
+        "label": "Additional payment solutions:"
+      },
+      "other_payment_methods": {
+        "label": "Other Payment Methods:"
+      },
+      "paypal_payment_solutions": {
+        "label": "NoLabel"
+      },
+      "free": {
+        "label": "Zero Subtotal Checkout"
+      },
+      "checkmo": {
+        "label": "Check / Money Order"
+      },
+      "banktransfer": {
+        "label": "Bank Transfer Payment"
+      },
+      "cashondelivery": {
+        "label": "Cash On Delivery Payment"
+      },
+      "purchaseorder": {
+        "label": "Purchase Order"
+      }
+    },
+    "payment_other": {
+      "label": "Payment Methods",
+      "account": {
+        "label": "Merchant Location"
+      },
+      "recommended_solutions": {
+        "label": "Featured Adobe Payment solution:"
+      },
+      "other_paypal_payment_solutions": {
+        "label": "Additional payment solutions:"
+      },
+      "other_payment_methods": {
+        "label": "Other Payment Methods:"
+      },
+      "express_checkout_other": {
+        "label": "PayPal Express Checkout"
+      },
+      "paypal_group_all_in_one": {
+        "label": "PayPal All-in-One Payment Solutions&nbsp;&nbsp;<i>Accept and process credit cards and PayPal payments.</i>"
+      },
+      "paypal_payment_gateways": {
+        "label": "PayPal Payment Gateways&nbsp;<i>Process payments using your own internet merchant account.</i>"
+      },
+      "free": {
+        "label": "Zero Subtotal Checkout"
+      },
+      "checkmo": {
+        "label": "Check / Money Order"
+      },
+      "banktransfer": {
+        "label": "Bank Transfer Payment"
+      },
+      "cashondelivery": {
+        "label": "Cash On Delivery Payment"
+      },
+      "purchaseorder": {
+        "label": "Purchase Order"
+      }
+    },
+    "payment_ca": {
+      "label": "Payment Methods",
+      "account": {
+        "label": "Merchant Location"
+      },
+      "recommended_solutions": {
+        "label": "Featured Adobe Payment solution:"
+      },
+      "other_paypal_payment_solutions": {
+        "label": "Additional payment solutions:"
+      },
+      "other_payment_methods": {
+        "label": "Other Payment Methods:"
+      },
+      "express_checkout_other": {
+        "label": "PayPal Express Checkout"
+      },
+      "paypal_group_all_in_one": {
+        "label": "PayPal All-in-One Payment Solutions&nbsp;&nbsp;<i>Accept and process credit cards and PayPal payments.</i>"
+      },
+      "paypal_payment_gateways": {
+        "label": "PayPal Payment Gateways&nbsp;<i>Process payments using your own internet merchant account.</i>"
+      },
+      "free": {
+        "label": "Zero Subtotal Checkout"
+      },
+      "checkmo": {
+        "label": "Check / Money Order"
+      },
+      "banktransfer": {
+        "label": "Bank Transfer Payment"
+      },
+      "cashondelivery": {
+        "label": "Cash On Delivery Payment"
+      },
+      "purchaseorder": {
+        "label": "Purchase Order"
+      }
+    },
+    "payment_au": {
+      "label": "Payment Methods",
+      "account": {
+        "label": "Merchant Location"
+      },
+      "recommended_solutions": {
+        "label": "Featured Adobe Payment solution:"
+      },
+      "other_paypal_payment_solutions": {
+        "label": "Additional payment solutions:"
+      },
+      "other_payment_methods": {
+        "label": "Other Payment Methods:"
+      },
+      "express_checkout_other": {
+        "label": "PayPal Express Checkout"
+      },
+      "paypal_group_all_in_one": {
+        "label": "PayPal All-in-One Payment Solutions&nbsp;&nbsp;<i>Accept and process credit cards and PayPal payments.</i>"
+      },
+      "paypal_payment_gateways": {
+        "label": "PayPal Payment Gateways&nbsp;<i>Process payments using your own internet merchant account.</i>"
+      },
+      "free": {
+        "label": "Zero Subtotal Checkout"
+      },
+      "checkmo": {
+        "label": "Check / Money Order"
+      },
+      "banktransfer": {
+        "label": "Bank Transfer Payment"
+      },
+      "cashondelivery": {
+        "label": "Cash On Delivery Payment"
+      },
+      "purchaseorder": {
+        "label": "Purchase Order"
+      }
+    },
+    "payment_jp": {
+      "label": "Payment Methods",
+      "account": {
+        "label": "Merchant Location"
+      },
+      "recommended_solutions": {
+        "label": "Featured Adobe Payment solution:"
+      },
+      "other_paypal_payment_solutions": {
+        "label": "Additional payment solutions:"
+      },
+      "other_payment_methods": {
+        "label": "Other Payment Methods:"
+      },
+      "express_checkout_other": {
+        "label": "PayPal Express Checkout"
+      },
+      "paypal_group_all_in_one": {
+        "label": "PayPal All-in-One Payment Solutions&nbsp;&nbsp;<i>Accept and process credit cards and PayPal payments.</i>"
+      },
+      "paypal_payment_gateways": {
+        "label": "PayPal Payment Gateways&nbsp;<i>Process payments using your own internet merchant account.</i>"
+      },
+      "free": {
+        "label": "Zero Subtotal Checkout"
+      },
+      "checkmo": {
+        "label": "Check / Money Order"
+      },
+      "banktransfer": {
+        "label": "Bank Transfer Payment"
+      },
+      "cashondelivery": {
+        "label": "Cash On Delivery Payment"
+      },
+      "purchaseorder": {
+        "label": "Purchase Order"
+      }
+    },
+    "payment_fr": {
+      "label": "Payment Methods",
+      "account": {
+        "label": "Merchant Location"
+      },
+      "recommended_solutions": {
+        "label": "Featured Adobe Payment solution:"
+      },
+      "other_paypal_payment_solutions": {
+        "label": "Additional payment solutions:"
+      },
+      "other_payment_methods": {
+        "label": "Other Payment Methods:"
+      },
+      "express_checkout_other": {
+        "label": "PayPal Express Checkout"
+      },
+      "paypal_group_all_in_one": {
+        "label": "PayPal All-in-One Payment Solutions&nbsp;&nbsp;<i>Accept and process credit cards and PayPal payments.</i>"
+      },
+      "paypal_payment_gateways": {
+        "label": "PayPal Payment Gateways&nbsp;<i>Process payments using your own internet merchant account.</i>"
+      },
+      "free": {
+        "label": "Zero Subtotal Checkout"
+      },
+      "checkmo": {
+        "label": "Check / Money Order"
+      },
+      "banktransfer": {
+        "label": "Bank Transfer Payment"
+      },
+      "cashondelivery": {
+        "label": "Cash On Delivery Payment"
+      },
+      "purchaseorder": {
+        "label": "Purchase Order"
+      }
+    },
+    "payment_it": {
+      "label": "Payment Methods",
+      "account": {
+        "label": "Merchant Location"
+      },
+      "recommended_solutions": {
+        "label": "Featured Adobe Payment solution:"
+      },
+      "other_paypal_payment_solutions": {
+        "label": "Additional payment solutions:"
+      },
+      "other_payment_methods": {
+        "label": "Other Payment Methods:"
+      },
+      "express_checkout_other": {
+        "label": "PayPal Express Checkout"
+      },
+      "paypal_group_all_in_one": {
+        "label": "PayPal All-in-One Payment Solutions&nbsp;&nbsp;<i>Accept and process credit cards and PayPal payments.</i>"
+      },
+      "paypal_payment_gateways": {
+        "label": "PayPal Payment Gateways&nbsp;<i>Process payments using your own internet merchant account.</i>"
+      },
+      "free": {
+        "label": "Zero Subtotal Checkout"
+      },
+      "checkmo": {
+        "label": "Check / Money Order"
+      },
+      "banktransfer": {
+        "label": "Bank Transfer Payment"
+      },
+      "cashondelivery": {
+        "label": "Cash On Delivery Payment"
+      },
+      "purchaseorder": {
+        "label": "Purchase Order"
+      }
+    },
+    "payment_es": {
+      "label": "Payment Methods",
+      "account": {
+        "label": "Merchant Location"
+      },
+      "recommended_solutions": {
+        "label": "Featured Adobe Payment solution:"
+      },
+      "other_paypal_payment_solutions": {
+        "label": "Additional payment solutions:"
+      },
+      "other_payment_methods": {
+        "label": "Other Payment Methods:"
+      },
+      "express_checkout_other": {
+        "label": "PayPal Express Checkout"
+      },
+      "paypal_group_all_in_one": {
+        "label": "PayPal All-in-One Payment Solutions&nbsp;&nbsp;<i>Accept and process credit cards and PayPal payments.</i>"
+      },
+      "paypal_payment_gateways": {
+        "label": "PayPal Payment Gateways&nbsp;<i>Process payments using your own internet merchant account.</i>"
+      },
+      "free": {
+        "label": "Zero Subtotal Checkout"
+      },
+      "checkmo": {
+        "label": "Check / Money Order"
+      },
+      "banktransfer": {
+        "label": "Bank Transfer Payment"
+      },
+      "cashondelivery": {
+        "label": "Cash On Delivery Payment"
+      },
+      "purchaseorder": {
+        "label": "Purchase Order"
+      }
+    },
+    "payment_hk": {
+      "label": "Payment Methods",
+      "account": {
+        "label": "Merchant Location"
+      },
+      "recommended_solutions": {
+        "label": "Featured Adobe Payment solution:"
+      },
+      "other_paypal_payment_solutions": {
+        "label": "Additional payment solutions:"
+      },
+      "other_payment_methods": {
+        "label": "Other Payment Methods:"
+      },
+      "express_checkout_other": {
+        "label": "PayPal Express Checkout"
+      },
+      "paypal_group_all_in_one": {
+        "label": "PayPal All-in-One Payment Solutions&nbsp;&nbsp;<i>Accept and process credit cards and PayPal payments.</i>"
+      },
+      "paypal_payment_gateways": {
+        "label": "PayPal Payment Gateways&nbsp;<i>Process payments using your own internet merchant account.</i>"
+      },
+      "free": {
+        "label": "Zero Subtotal Checkout"
+      },
+      "checkmo": {
+        "label": "Check / Money Order"
+      },
+      "banktransfer": {
+        "label": "Bank Transfer Payment"
+      },
+      "cashondelivery": {
+        "label": "Cash On Delivery Payment"
+      },
+      "purchaseorder": {
+        "label": "Purchase Order"
+      }
+    },
+    "payment_nz": {
+      "label": "Payment Methods",
+      "account": {
+        "label": "Merchant Location"
+      },
+      "recommended_solutions": {
+        "label": "Featured Adobe Payment solution:"
+      },
+      "other_paypal_payment_solutions": {
+        "label": "Additional payment solutions:"
+      },
+      "other_payment_methods": {
+        "label": "Other Payment Methods:"
+      },
+      "express_checkout_other": {
+        "label": "PayPal Express Checkout"
+      },
+      "paypal_group_all_in_one": {
+        "label": "PayPal All-in-One Payment Solutions&nbsp;&nbsp;<i>Accept and process credit cards and PayPal payments.</i>"
+      },
+      "paypal_payment_gateways": {
+        "label": "PayPal Payment Gateways&nbsp;<i>Process payments using your own internet merchant account.</i>"
+      },
+      "free": {
+        "label": "Zero Subtotal Checkout"
+      },
+      "checkmo": {
+        "label": "Check / Money Order"
+      },
+      "banktransfer": {
+        "label": "Bank Transfer Payment"
+      },
+      "cashondelivery": {
+        "label": "Cash On Delivery Payment"
+      },
+      "purchaseorder": {
+        "label": "Purchase Order"
+      }
+    },
+    "three_d_secure": {
+      "label": "3D Secure",
+      "cardinal": {
+        "label": "NoLabel"
+      }
+    }
+  },
+  "security": {
+    "label": "Security",
+    "csp": {
+      "label": "Content Security Policy (CSP)",
+      "mode": {
+        "label": "Mode"
+      }
+    },
+    "magento_securitytxt_securitytxt": {
+      "label": "Security.txt",
+      "general": {
+        "label": "General"
+      },
+      "contact_information": {
+        "label": "Contact Information"
+      },
+      "other_information": {
+        "label": "Other Information"
+      }
+    },
+    "recaptcha_backend": {
+      "label": "Google reCAPTCHA Admin Panel",
+      "type_recaptcha": {
+        "label": "reCAPTCHA v2 (\"I am not a robot\")"
+      },
+      "type_invisible": {
+        "label": "reCAPTCHA v2 Invisible"
+      },
+      "type_recaptcha_v3": {
+        "label": "reCAPTCHA v3 Invisible"
+      },
+      "failure_messages": {
+        "label": "reCAPTCHA Failure Messages"
+      },
+      "type_for": {
+        "label": "Admin Panel"
+      }
+    },
+    "recaptcha_frontend": {
+      "label": "Google reCAPTCHA Storefront",
+      "type_recaptcha": {
+        "label": "reCAPTCHA v2 (\"I am not a robot\")"
+      },
+      "type_invisible": {
+        "label": "reCAPTCHA v2 Invisible"
+      },
+      "type_recaptcha_v3": {
+        "label": "reCAPTCHA v3 Invisible"
+      },
+      "failure_messages": {
+        "label": "reCAPTCHA Failure Messages"
+      },
+      "type_for": {
+        "label": "Storefront"
+      }
+    }
+  }
 }
